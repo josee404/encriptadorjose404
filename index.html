@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>challenge encriptador - jose lezama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="challenge__container__main">
+        <div class="challenge__logo">
+            <h1 class="logo">a</h1>
+        </div>
+        <div class="challenge__container__form">
+            <div class="challenge__container__input">
+                <label for="input"></label> <input type="text" id="input" placeholder="Ingrese el texto aqui">
+            </div>
+            <div class="challenge__container__section__buttons">
+               <div class="challenge__container__buttons">
+                   <div class="span">
+                       <span> solo letras minusculas y sin acentos</span>
+                    </div>
+                    <div class="buttons">
+                        <button id="btnE" class="btn">encriptar</button>
+                        <button class="btn diferent" id="btnD">desencriptar</button>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="challenge__container__results">
+            <div class="results">
+                <div class="results__img">
+                    <img src="undraw_searching_re_3ra9.svg" alt="search">
+                </div>
+                <div class="results__text">
+                    <h2>ningun mensaje fue encontrado</h2>
+                    <br>
+                    <p>ingresa el texto que quieres encriptar</p>
+                </div>
+                <div>
+                    <span id="nresult" class="results__text"></span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+
+
+
+</body>
+</html>
